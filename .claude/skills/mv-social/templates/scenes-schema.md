@@ -22,7 +22,8 @@ This is the contract between scripting and editing. Remotion compositions will r
         "query": "Sky Bri Adin Ross stream clip",   // what to find
         "source": null,                // URL once found (filled in by footage stage)
         "in": null, "out": null,       // trim points in seconds
-        "treatment": "zoom-punch"      // ken-burns | zoom-punch | blur-bg-fill | split | shake | none
+        "treatment": "zoom-punch",     // ken-burns | zoom-punch | blur-bg-fill | split | shake | none
+        "zoom": 1.3, "anchor": "top"   // optional (vertical clips): push burned-in source text/subs out of the caption zone (~y 1300–1440). top → text moves down into the Shorts UI zone; bottom → moves up (e.g. keep a comment card visible above captions)
       },
       "sfx": "bass-hit",               // optional: whoosh | bass-hit | riser | record-scratch | ding | silence
       "poster": { "wiki": "Knives Out" },   // optional: only in a quick filmography run, poster slides in top-right.

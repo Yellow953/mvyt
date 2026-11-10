@@ -60,16 +60,33 @@ def synth(text, voice, speed):
 
 
 def unpron_words(words, pron):
-    """Map respelled single words back to original spelling for captions."""
-    rev = {}
+    """Map respellings back to the original spelling for captions.
+    Same word count: word-by-word ("Anna day Armas" -> "Ana de Armas").
+    Different count: merge the spoken run into one caption word ("twelve point seven" -> "12.7")."""
+    rev, multi = {}, []
     for orig, said in (pron or {}).items():
         o, s = orig.split(), said.split()
         if len(o) == len(s):
             for a, b in zip(o, s):
                 rev[b.lower()] = a
-    for w in words:
-        w["word"] = rev.get(w["word"].lower(), w["word"])
-    return words
+        else:
+            multi.append(([x.lower() for x in s], orig))
+    strip = lambda x: re.sub(r"[^\w']+$", "", x.lower())
+    out, i = [], 0
+    while i < len(words):
+        for said, orig in multi:
+            run = words[i:i + len(said)]
+            if len(run) == len(said) and [strip(w["word"]) for w in run] == said:
+                tail = re.search(r"[^\w']+$", run[-1]["word"])
+                out.append(dict(run[0], word=orig + (tail.group(0) if tail else ""), end=run[-1]["end"]))
+                i += len(said)
+                break
+        else:
+            w = words[i]
+            w["word"] = rev.get(w["word"].lower(), w["word"])
+            out.append(w)
+            i += 1
+    return out
 
 
 def main():

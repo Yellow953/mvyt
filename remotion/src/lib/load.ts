@@ -17,7 +17,7 @@ const getJson = async <T,>(path: string, signal?: AbortSignal): Promise<T | null
 };
 
 /** Group words into short caption pages: break on max words, pauses, or sentence ends. */
-export const paginate = (words: Word[], maxWords: number): CaptionPage[] => {
+export const paginate = (words: Word[], maxWords: number, maxChars = Infinity): CaptionPage[] => {
   const pages: CaptionPage[] = [];
   let cur: Word[] = [];
   const flush = () => {
@@ -26,7 +26,8 @@ export const paginate = (words: Word[], maxWords: number): CaptionPage[] => {
   };
   words.forEach((w, i) => {
     const prev = words[i - 1];
-    if (cur.length && (cur.length >= maxWords || (prev && w.start - prev.end > 0.35))) flush();
+    const chars = cur.reduce((n, x) => n + x.word.length + 1, 0) + w.word.length;
+    if (cur.length && (cur.length >= maxWords || chars > maxChars || (prev && w.start - prev.end > 0.35))) flush();
     cur.push(w);
     if (/[.!?]$/.test(w.word)) flush();
   });
@@ -78,7 +79,7 @@ export const calculateMetadata: CalculateMetadataFunction<ResolvedProps> = async
       framing: props.framing,
       spec,
       scenes,
-      pages: paginate(words, spec.format === "short" ? 3 : 6),
+      pages: paginate(words, spec.format === "short" ? 3 : 6, spec.format === "short" ? 16 : Infinity),
       hasVoice: Boolean(timings),
     },
   };

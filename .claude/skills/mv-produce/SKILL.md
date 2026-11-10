@@ -30,6 +30,7 @@ For each scene with `type` clip or image and no `source`:
   Shorts frame landscape footage in a **4:5 window on black** by default (user's choice). The crop is centred on `visual.focus`. Full 9:16 crops felt too zoomed-in. Never use blurred or gray bands. If a crop misses the subject, set `visual.focus` by hand (0 = left, 1 = right). The downloader fetches up to 4K so the crops stay sharp, and it strips baked-in black bars automatically.
 - Check the crop in the stills for anything that crosses the red lines (e.g. a body-focused framing). If it does, pick a face-led moment instead.
 - If Instagram or TikTok refuses without login, **ask the user** before using `--cookies-from-browser chrome` (it reads their browser session).
+- After footage: render a few stills (`tools/render.sh <slug> --still N`) and check that captions don't collide with text burned into TikTok/IG clips (creator captions, outlet subtitles, comment cards). Fix with `visual.zoom` + `visual.anchor` (see scenes-schema.md). Large outlet graphics (E! News boxes, for example) mean you should find the creator's original upload instead.
 - Single ad-hoc clip: `python3 tools/fetch.py get <slug> <url> --from 12 --to 18 --scene s07`
 - Any scene left without footage renders as a red striped **MISSING FOOTAGE** card, so gaps are obvious in preview.
 
@@ -67,6 +68,6 @@ Write `videos/<slug>/upload.md` from the script's upload package: title, descrip
 - `components/Captions.tsx`: word-by-word captions with the active word highlighted.
 - `components/OnScreenText.tsx`: the hook and label text.
 - SFX keys come from `lib/theme.ts` (`videos/_lib/sfx/`).
-- Music: before rendering, run `python3 tools/music.py pick videos/<slug>/scenes.json --mood <sensual|calm|tension|upbeat>`. It picks the least-used track from `videos/_lib/music/<mood>/`. `components/Music.tsx` auto-ducks it under the narrator and fades it in and out. Defaults: profiles and rise stories use `sensual`, AI and money explainers use `calm`, drama and downfalls use `tension`, countdowns use `upbeat`. Only YouTube Audio Library "Attribution not required" tracks go in the library.
+- Music: before rendering, run `python3 tools/music.py pick videos/<slug>/scenes.json --mood <sensual|calm|tension|upbeat>`. It picks the least-used track from `videos/_lib/music/<mood>/`. `components/Music.tsx` auto-ducks it under the narrator and fades it in and out. Defaults: profiles and rise stories use `sensual`, AI and money explainers use `calm`, drama and downfalls use `tension`, countdowns use `upbeat`. Only YouTube Audio Library "Attribution not required" tracks go in the library. Many tracks open with a quiet intro, so set `music.start` (seconds into the track) to begin on the main section; check with `ffmpeg -i <track> -af ebur128 -f null -`. Keep `music.volume` around 0.25, because the bed ducks to 60% under the voice. The user wants the music clearly audible from the first second.
 
 When changing the template, follow the official `remotion-best-practices` / `remotion-markup` skills.

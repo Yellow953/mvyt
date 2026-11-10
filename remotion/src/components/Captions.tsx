@@ -30,6 +30,7 @@ export const Captions: React.FC<{ pages: CaptionPage[]; format: "short" | "long"
           fontFamily: theme.font,
           fontWeight: 900,
           fontSize: short ? 82 : 58,
+          whiteSpace: short ? "nowrap" : "normal",
           lineHeight: 1.1,
           textAlign: "center",
           textTransform: short ? "uppercase" : "none",

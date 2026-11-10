@@ -14,7 +14,7 @@ export const OnScreenText: React.FC<{ text: string; format: "short" | "long" }> 
       style={{
         alignItems: "center",
         justifyContent: short ? "flex-end" : "flex-start",
-        paddingBottom: short ? 1920 - SHORT_SAFE.bottom + 210 : 0,
+        paddingBottom: short ? 1920 - SHORT_SAFE.bottom + 230 : 0,
         paddingTop: short ? 0 : 80,
         paddingLeft: 80,
         paddingRight: 80,

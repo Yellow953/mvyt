@@ -32,12 +32,22 @@ export const MvVideo: React.FC<ResolvedProps> = ({ slug, spec, scenes, pages, ha
         </Sequence>
       ))}
 
+      {/* Soft scrim under the caption zone so captions read over any footage (Shorts only) */}
+      {format === "short" && (
+        <AbsoluteFill
+          style={{
+            background:
+              "linear-gradient(to bottom, rgba(0,0,0,0) 55%, rgba(0,0,0,0.45) 68%, rgba(0,0,0,0.55) 76%, rgba(0,0,0,0.35) 100%)",
+          }}
+        />
+      )}
+
       {/* Captions track */}
       {pages && <Captions pages={pages} format={format} />}
 
       {/* Audio track */}
       {hasVoice && <Audio name="Voiceover" src={staticFile(`${slug}/audio/voice.wav`)} />}
-      {spec.music?.file && <Music file={spec.music.file} volume={spec.music.volume ?? 0.16} speech={pages ?? []} />}
+      {spec.music?.file && <Music file={spec.music.file} volume={spec.music.volume ?? 0.25} start={spec.music.start} speech={pages ?? []} />}
     </AbsoluteFill>
   );
 };

@@ -1,0 +1,249 @@
+{
+  "slug": "addison-rae-tiktok-to-grammys",
+  "format": "short",
+  "title": "From TikTok Dancer to Grammy Nominee",
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.08
+  },
+  "music": {
+    "file": "_lib/music/sensual/Mixkit - Pop 08.mp3",
+    "mood": "upbeat",
+    "volume": 0.25,
+    "title": "Pop 08",
+    "artist": "Mixkit",
+    "start": 12
+  },
+  "pron": {
+    "LSU": "L S U",
+    "88": "eighty-eight"
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "section": "hook",
+      "vo": "In 2019, she was a college freshman dancing in a living room.",
+      "text": "2019",
+      "visual": {
+        "type": "clip",
+        "query": "2019 TikTok dance with friends",
+        "source": "https://www.tiktok.com/@yeawike/video/7047593765241982210",
+        "in": 4.0,
+        "out": 7.0,
+        "treatment": "zoom-punch",
+        "file": "assets/s01.mp4",
+        "focus": 0.521
+      },
+      "sfx": "bass-hit"
+    },
+    {
+      "id": "s02",
+      "section": "hook",
+      "vo": "Six years later, she's a Grammy nominee.",
+      "text": "GRAMMY NOMINEE",
+      "visual": {
+        "type": "clip",
+        "query": "Grammys 2026: Fame Is a Gun, face close",
+        "source": "https://www.tiktok.com/@whowhatwear/video/7602091366843157774",
+        "in": 7.5,
+        "out": 10.5,
+        "treatment": "zoom-punch",
+        "zoom": 1.3,
+        "anchor": "bottom",
+        "file": "assets/s02.mp4",
+        "focus": 0.509
+      },
+      "sfx": "whoosh"
+    },
+    {
+      "id": "s03",
+      "section": "block-1",
+      "vo": "Addison Rae. Lafayette, Louisiana.",
+      "text": "ADDISON RAE",
+      "visual": {
+        "type": "clip",
+        "query": "Grammy Museum performance, yellow dress",
+        "source": "https://www.tiktok.com/@niksmotel/video/7541284079291993358",
+        "in": 20.0,
+        "out": 23.0,
+        "treatment": "zoom-punch",
+        "file": "assets/s03.mp4",
+        "focus": 0.564
+      },
+      "sfx": null
+    },
+    {
+      "id": "s04",
+      "section": "block-1",
+      "vo": "July 2019, she joins TikTok. Months later, a million followers.",
+      "text": "1M FOLLOWERS",
+      "visual": {
+        "type": "clip",
+        "query": "2019 TikTok dance",
+        "source": "https://www.tiktok.com/@oldtoktik/video/7243438857646066970",
+        "in": 6.0,
+        "out": 9.0,
+        "treatment": "zoom-punch",
+        "file": "assets/s04.mp4",
+        "focus": 0.412
+      },
+      "sfx": null
+    },
+    {
+      "id": "s05",
+      "section": "block-1",
+      "vo": "So she dropped out of LSU.",
+      "text": "BYE, LSU",
+      "visual": {
+        "type": "clip",
+        "query": "2019 TikTok: laughing at camera",
+        "source": "https://www.tiktok.com/@yeawike/video/7047593765241982210",
+        "in": 12.0,
+        "out": 15.0,
+        "treatment": "zoom-punch",
+        "file": "assets/s05.mp4",
+        "focus": 0.506
+      },
+      "sfx": "record-scratch"
+    },
+    {
+      "id": "s06",
+      "section": "block-1",
+      "vo": "In 2020, Forbes named her TikTok's top earner. Five million dollars.",
+      "text": "$5M · FORBES",
+      "visual": {
+        "type": "clip",
+        "query": "Primavera Diet Pepsi: close-up",
+        "source": "https://www.tiktok.com/@amazonmusic/video/7649093675615522061",
+        "in": 2.0,
+        "out": 5.5,
+        "treatment": "zoom-punch",
+        "file": "assets/s06.mp4",
+        "focus": 0.488
+      },
+      "sfx": "ding"
+    },
+    {
+      "id": "s07",
+      "section": "block-2",
+      "vo": "Netflix made her the lead in He's All That.",
+      "text": "NETFLIX LEAD",
+      "visual": {
+        "type": "clip",
+        "query": "He's All That trailer: Addison close-up",
+        "source": "https://www.youtube.com/watch?v=XqTPaRz8Nx8",
+        "in": 32.4,
+        "out": 34.0,
+        "treatment": "ken-burns",
+        "file": "assets/s07.mp4",
+        "focus": 0.351
+      },
+      "sfx": null
+    },
+    {
+      "id": "s08",
+      "section": "block-2",
+      "vo": "Her first single? Even she called her early music messy.",
+      "text": "\"MESSY\"",
+      "visual": {
+        "type": "clip",
+        "query": "Coachella 2025 fan cam, gold light",
+        "source": "https://www.tiktok.com/@willoughbytuckur/video/7493105017906384159",
+        "in": 36.0,
+        "out": 39.0,
+        "treatment": "zoom-punch",
+        "file": "assets/s08.mp4",
+        "focus": 0.722
+      },
+      "sfx": null
+    },
+    {
+      "id": "s10",
+      "section": "turn",
+      "vo": "Then she came back with Diet Pepsi. Her first Hot 100 hit.",
+      "text": "BILLBOARD HOT 100",
+      "visual": {
+        "type": "clip",
+        "query": "Primavera 2026: Diet Pepsi live, smile",
+        "source": "https://www.tiktok.com/@amazonmusic/video/7649093675615522061",
+        "in": 16.0,
+        "out": 19.5,
+        "treatment": "zoom-punch",
+        "file": "assets/s10.mp4",
+        "focus": 0.363
+      },
+      "sfx": null
+    },
+    {
+      "id": "s11",
+      "section": "turn",
+      "vo": "Her album, Addison, debuted at number four.",
+      "text": "#4 ON BILLBOARD 200",
+      "visual": {
+        "type": "clip",
+        "query": "Coachella 2025 fan cam",
+        "source": "https://www.tiktok.com/@willoughbytuckur/video/7493105017906384159",
+        "in": 44.0,
+        "out": 47.0,
+        "treatment": "zoom-punch",
+        "file": "assets/s11.mp4",
+        "focus": 0.749
+      },
+      "sfx": "ding"
+    },
+    {
+      "id": "s12",
+      "section": "payoff",
+      "vo": "On Fallon, she wore Gypsy Rose Lee's gold gown.",
+      "text": "GYPSY ROSE LEE'S GOWN",
+      "visual": {
+        "type": "clip",
+        "query": "Fallon Diet Pepsi performance, gold gown close",
+        "source": "https://www.tiktok.com/@columbiarecords/video/7557060044613881102",
+        "in": 26.0,
+        "out": 29.0,
+        "treatment": "zoom-punch",
+        "file": "assets/s12.mp4",
+        "focus": 0.47
+      },
+      "sfx": null
+    },
+    {
+      "id": "s13",
+      "section": "payoff",
+      "vo": "Then the Grammys. Best New Artist.",
+      "text": "BEST NEW ARTIST",
+      "visual": {
+        "type": "clip",
+        "query": "Grammys Fame Is a Gun performance",
+        "source": "https://www.tiktok.com/@whowhatwear/video/7602091366843157774",
+        "in": 12.0,
+        "out": 15.0,
+        "treatment": "zoom-punch",
+        "zoom": 1.3,
+        "anchor": "bottom",
+        "file": "assets/s13.mp4",
+        "focus": 0.491
+      },
+      "sfx": "bass-hit"
+    },
+    {
+      "id": "s14",
+      "section": "outro",
+      "vo": "88 million followers. Still just a TikToker?",
+      "text": "88M FOLLOWERS",
+      "visual": {
+        "type": "clip",
+        "query": "2019 TikTok dance (loop to hook)",
+        "source": "https://www.tiktok.com/@oldtoktik/video/7243438857646066970",
+        "in": 0.0,
+        "out": 3.0,
+        "treatment": "zoom-punch",
+        "file": "assets/s14.mp4",
+        "focus": 0.437
+      },
+      "sfx": null
+    }
+  ]
+}

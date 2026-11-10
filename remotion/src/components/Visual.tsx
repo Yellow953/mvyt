@@ -113,9 +113,16 @@ export const Visual: React.FC<{ scene: ResolvedScene & { spec_slug: string }; fo
           </Motion>
         </>
       ) : (
-        <Motion treatment={v.treatment ?? (v.type === "image" ? "ken-burns" : "none")}>
-          <Media scene={scene} fit="cover" />
-        </Motion>
+        <AbsoluteFill
+          style={{
+            scale: v.zoom ?? 1,
+            transformOrigin: `50% ${v.anchor === "top" ? 0 : v.anchor === "bottom" ? 100 : 50}%`,
+          }}
+        >
+          <Motion treatment={v.treatment ?? (v.type === "image" ? "ken-burns" : "none")}>
+            <Media scene={scene} fit="cover" />
+          </Motion>
+        </AbsoluteFill>
       )}
     </AbsoluteFill>
   );

@@ -16,6 +16,8 @@ export type Visual = {
   treatment?: Treatment;
   volume?: number; // original clip audio volume (default 0 = muted under VO)
   focus?: number; // 0..1 horizontal subject position for 9:16 crops (tools/focus.py)
+  zoom?: number; // extra static zoom for full-frame clips (e.g. 1.25) to push burned-in source text out of the caption zone
+  anchor?: "top" | "center" | "bottom"; // which edge stays fixed when zooming (top pushes bottom text down, bottom pushes it up)
 };
 
 export type Scene = {
@@ -33,7 +35,7 @@ export type Spec = {
   slug: string;
   format: "short" | "long";
   title?: string;
-  music?: { file?: string; mood?: string; volume?: number };
+  music?: { file?: string; mood?: string; volume?: number; start?: number }; // start = seconds into the track (skip quiet intros)
   framing?: "fill" | "4:5" | "1:1"; // Shorts: how landscape footage is framed
   scenes: Scene[];
 };

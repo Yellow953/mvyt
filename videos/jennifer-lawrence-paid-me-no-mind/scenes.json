@@ -1,0 +1,254 @@
+{
+  "slug": "jennifer-lawrence-paid-me-no-mind",
+  "format": "short",
+  "title": "Jennifer Lawrence Roasted Him… Now It's a Smoothie",
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.08
+  },
+  "music": {
+    "file": "_lib/music/sensual/Mixkit - See Line Funk.mp3",
+    "mood": "upbeat",
+    "volume": 0.14,
+    "title": "See Line Funk",
+    "artist": "Mixkit"
+  },
+  "pron": {
+    "Rylee": "Riley",
+    "12.7": "twelve point seven"
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "section": "hook",
+      "vo": "One comment from Jennifer Lawrence put this guy on the floor.",
+      "text": "ONE COMMENT",
+      "visual": {
+        "type": "clip",
+        "query": "Rylee TikTok: Connor face-down on rehearsal floor",
+        "source": "https://www.tiktok.com/@ryleearnold/video/7699278575253474574",
+        "in": 0.3,
+        "out": 3.6,
+        "treatment": "zoom-punch",
+        "file": "assets/s01.mp4",
+        "focus": 0.5,
+        "zoom": 1.3,
+        "anchor": "top"
+      },
+      "sfx": "bass-hit"
+    },
+    {
+      "id": "s02",
+      "section": "hook",
+      "vo": "Three weeks later, it's a smoothie.",
+      "text": null,
+      "visual": {
+        "type": "clip",
+        "query": "Smoothie King ad: NOW AVAILABLE title",
+        "source": "https://www.tiktok.com/@fibulaa/video/7705550417865788702",
+        "in": 29.5,
+        "out": 32.3,
+        "treatment": "zoom-punch",
+        "file": "assets/s02.mp4",
+        "focus": 0.533
+      },
+      "sfx": "whoosh"
+    },
+    {
+      "id": "s03",
+      "section": "block-1",
+      "vo": "This is Connor Wood. Comedian, Dancing With the Stars.",
+      "text": "CONNOR WOOD · DWTS",
+      "visual": {
+        "type": "clip",
+        "query": "GMA red carpet: Connor + Rylee",
+        "source": "https://www.tiktok.com/@gma/video/7701763449650498829",
+        "in": 2.0,
+        "out": 5.0,
+        "treatment": "zoom-punch",
+        "file": "assets/s03.mp4",
+        "focus": 0.45
+      },
+      "sfx": null
+    },
+    {
+      "id": "s04",
+      "section": "block-1",
+      "vo": "On BuzzFeed, he named his celebrity crush.",
+      "text": null,
+      "visual": {
+        "type": "clip",
+        "query": "BuzzFeed BFF test: 'from Jennifer Lawrence' with JLaw backdrop",
+        "source": "https://www.tiktok.com/@buzzfeedceleb/video/7698897783683632415",
+        "in": 19.6,
+        "out": 22.4,
+        "treatment": "zoom-punch",
+        "file": "assets/s04.mp4",
+        "focus": 0.403,
+        "zoom": 1.25,
+        "anchor": "top"
+      },
+      "sfx": null
+    },
+    {
+      "id": "s05",
+      "section": "block-1",
+      "vo": "Jennifer Lawrence. He just wanted a little acknowledgment.",
+      "text": "HIS CELEB CRUSH",
+      "visual": {
+        "type": "clip",
+        "query": "Fallon: JLaw close-up",
+        "source": "https://www.youtube.com/watch?v=puUVS9HmDp0",
+        "in": 24.0,
+        "out": 27.0,
+        "treatment": "ken-burns",
+        "file": "assets/s05.mp4",
+        "focus": 0.465
+      },
+      "sfx": null
+    },
+    {
+      "id": "s06",
+      "section": "turn",
+      "vo": "Then she actually commented.",
+      "text": null,
+      "visual": {
+        "type": "clip",
+        "query": "BuzzFeed TikTok: JLaw's comment card over Connor",
+        "source": "https://www.tiktok.com/@buzzfeedceleb/video/7701500608884346126",
+        "in": 4.0,
+        "out": 6.2,
+        "treatment": "zoom-punch",
+        "file": "assets/s06.mp4",
+        "focus": 0.399,
+        "zoom": 1.25,
+        "anchor": "bottom"
+      },
+      "sfx": "ding"
+    },
+    {
+      "id": "s07",
+      "section": "turn",
+      "vo": "I saw you on Eighth Avenue drinking a smoothie… and you paid me no mind.",
+      "text": null,
+      "visual": {
+        "type": "clip",
+        "query": "BuzzFeed TikTok: rehearsal, comment overlay on screen",
+        "source": "https://www.tiktok.com/@buzzfeedceleb/video/7701500608884346126",
+        "in": 9.8,
+        "out": 14.6,
+        "treatment": "zoom-punch",
+        "file": "assets/s07.mp4",
+        "focus": 0.324
+      },
+      "sfx": null
+    },
+    {
+      "id": "s08",
+      "section": "block-2",
+      "vo": "He'd walked right past his crush. Too busy with a smoothie.",
+      "text": "WALKED RIGHT PAST HER",
+      "visual": {
+        "type": "clip",
+        "query": "Rylee TikTok: Connor doubled over",
+        "source": "https://www.tiktok.com/@ryleearnold/video/7699278575253474574",
+        "in": 44.0,
+        "out": 47.0,
+        "treatment": "zoom-punch",
+        "file": "assets/s08.mp4",
+        "focus": 0.387
+      },
+      "sfx": null
+    },
+    {
+      "id": "s09",
+      "section": "block-2",
+      "vo": "His partner Rylee filmed the meltdown. 12.7 million views.",
+      "text": "12.7M VIEWS",
+      "visual": {
+        "type": "clip",
+        "query": "Rylee TikTok: Connor open-mouthed shock",
+        "source": "https://www.tiktok.com/@ryleearnold/video/7699278575253474574",
+        "in": 9.8,
+        "out": 12.8,
+        "treatment": "zoom-punch",
+        "file": "assets/s09.mp4",
+        "focus": 0.333,
+        "zoom": 1.3,
+        "anchor": "top"
+      },
+      "sfx": "ding"
+    },
+    {
+      "id": "s10",
+      "section": "block-2",
+      "vo": "Every red carpet asked him about it.",
+      "text": null,
+      "visual": {
+        "type": "clip",
+        "query": "ET red carpet: Connor covering ears",
+        "source": "https://www.tiktok.com/@entertainmenttonight/video/7701745103450180894",
+        "in": 2.0,
+        "out": 4.6,
+        "treatment": "zoom-punch",
+        "file": "assets/s10.mp4",
+        "focus": 0.439,
+        "zoom": 1.3,
+        "anchor": "top"
+      },
+      "sfx": null
+    },
+    {
+      "id": "s11",
+      "section": "payoff",
+      "vo": "So Smoothie King did the only logical thing.",
+      "text": null,
+      "visual": {
+        "type": "clip",
+        "query": "Smoothie King ad: Connor on bench with smoothie",
+        "source": "https://www.tiktok.com/@fibulaa/video/7705550417865788702",
+        "in": 0.5,
+        "out": 3.5,
+        "treatment": "zoom-punch",
+        "file": "assets/s11.mp4",
+        "focus": 0.541
+      },
+      "sfx": "whoosh"
+    },
+    {
+      "id": "s12",
+      "section": "payoff",
+      "vo": "Connor's Paid Me No Mind Smoothie. In stores now.",
+      "text": "IN STORES NOV 5",
+      "visual": {
+        "type": "clip",
+        "query": "Smoothie King ad: Connor walks past a woman (8th Ave recreation)",
+        "source": "https://www.tiktok.com/@fibulaa/video/7705550417865788702",
+        "in": 36.0,
+        "out": 40.0,
+        "treatment": "zoom-punch",
+        "file": "assets/s12.mp4",
+        "focus": 0.53
+      },
+      "sfx": null
+    },
+    {
+      "id": "s13",
+      "section": "outro",
+      "vo": "Lesson? Always look up from your smoothie.",
+      "text": "LOOK UP.",
+      "visual": {
+        "type": "clip",
+        "query": "Smoothie King ad: Connor grin, eyes up",
+        "source": "https://www.tiktok.com/@fibulaa/video/7705550417865788702",
+        "in": 16.0,
+        "out": 19.0,
+        "treatment": "zoom-punch",
+        "file": "assets/s13.mp4",
+        "focus": 0.702
+      },
+      "sfx": null
+    }
+  ]
+}
