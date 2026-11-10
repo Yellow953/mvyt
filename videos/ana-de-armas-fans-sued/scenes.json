@@ -1,0 +1,254 @@
+{
+  "slug": "ana-de-armas-fans-sued",
+  "format": "short",
+  "title": "Fans Sued a Studio Because of Her",
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.08
+  },
+  "music": {
+    "file": "_lib/music/sensual/Mixkit - Baileys.mp3",
+    "mood": "sensual",
+    "volume": 0.16,
+    "title": "Baileys",
+    "artist": "Mixkit"
+  },
+  "pron": {
+    "Ana de Armas": "Anna day Armas"
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "section": "hook",
+      "vo": "Two fans sued Universal for five million dollars.",
+      "text": "SUED FOR $5M",
+      "visual": {
+        "type": "clip",
+        "query": "Yesterday deleted scene: Ana on the Corden set (the scene that was cut)",
+        "source": "https://www.youtube.com/watch?v=UUfkZ4pCJB0",
+        "in": 222.0,
+        "out": 225.7,
+        "treatment": "zoom-punch",
+        "file": "assets/s01.mp4",
+        "focus": 0.615
+      },
+      "sfx": "bass-hit"
+    },
+    {
+      "id": "s02",
+      "section": "hook",
+      "vo": "Because of her.",
+      "text": null,
+      "visual": {
+        "type": "clip",
+        "query": "Knives Out trailer: Ana close-up by window",
+        "source": "https://www.youtube.com/watch?v=qGqiHJTsRkQ",
+        "in": 19.3,
+        "out": 20.9,
+        "treatment": "zoom-punch",
+        "file": "assets/s02.mp4",
+        "focus": 0.491
+      },
+      "sfx": null
+    },
+    {
+      "id": "s03",
+      "section": "block-1",
+      "vo": "But rewind. She grew up in Cuba.",
+      "text": "HAVANA, CUBA",
+      "visual": {
+        "type": "text-card",
+        "treatment": "zoom-punch"
+      },
+      "sfx": "record-scratch"
+    },
+    {
+      "id": "s04",
+      "section": "block-1",
+      "vo": "At eighteen, she moved to Madrid with about two hundred euros.",
+      "text": "€200 | age 18 · Madrid",
+      "visual": {
+        "type": "stat",
+        "treatment": "zoom-punch"
+      },
+      "sfx": "ding"
+    },
+    {
+      "id": "s05",
+      "section": "block-1",
+      "vo": "Ana de Armas got famous on Spanish TV.",
+      "text": "SPANISH TV STAR",
+      "visual": {
+        "type": "clip",
+        "query": "El Internado: Ana as Carol, neutral close-up",
+        "source": "https://www.youtube.com/watch?v=4HPHsXw3E9A",
+        "in": 144.0,
+        "out": 146.6,
+        "treatment": "ken-burns",
+        "file": "assets/s05.mp4",
+        "focus": 0.617
+      },
+      "sfx": "whoosh"
+    },
+    {
+      "id": "s06",
+      "section": "block-2",
+      "vo": "Then she left it all for Hollywood. Without speaking English.",
+      "text": "NO ENGLISH",
+      "visual": {
+        "type": "clip",
+        "query": "BUILD interview: Ana discusses learning English",
+        "source": "https://www.youtube.com/watch?v=Su9UWl3ZGMo",
+        "in": 0.2,
+        "out": 3.4,
+        "treatment": "zoom-punch",
+        "file": "assets/s06.mp4",
+        "focus": 0.431
+      },
+      "sfx": "whip"
+    },
+    {
+      "id": "s07",
+      "section": "block-2",
+      "vo": "Her first American movie? She learned her lines phonetically.",
+      "text": "PHONETICALLY",
+      "visual": {
+        "type": "clip",
+        "query": "Knock Knock trailer: Ana laughing on the red chair (face-led, clothed)",
+        "source": "https://www.youtube.com/watch?v=ncB8dMAbVw0",
+        "in": 84.9,
+        "out": 86.6,
+        "treatment": "zoom-punch",
+        "file": "assets/s07.mp4",
+        "focus": 0.426
+      },
+      "sfx": "bass-hit"
+    },
+    {
+      "id": "s08",
+      "section": "block-2",
+      "vo": "In her words: I wasn't really sure what I was saying.",
+      "text": null,
+      "visual": {
+        "type": "clip",
+        "query": "BUILD interview: Ana close-up talking",
+        "source": "https://www.youtube.com/watch?v=Su9UWl3ZGMo",
+        "in": 36.2,
+        "out": 39.6,
+        "treatment": "ken-burns",
+        "file": "assets/s08.mp4",
+        "focus": 0.466
+      },
+      "sfx": null
+    },
+    {
+      "id": "s09",
+      "section": "block-3",
+      "vo": "Then came Blade Runner.",
+      "text": null,
+      "visual": {
+        "type": "clip",
+        "query": "Blade Runner 2049 trailer: Ana as Joi",
+        "source": "https://www.youtube.com/watch?v=gCcx85zbxz4",
+        "in": 117.3,
+        "out": 119.3,
+        "treatment": "zoom-punch",
+        "file": "assets/s09.mp4",
+        "focus": 0.43
+      },
+      "sfx": "whoosh",
+      "poster": {
+        "wiki": "Blade Runner 2049",
+        "file": "assets/poster-blade-runner-2049.png"
+      }
+    },
+    {
+      "id": "s10",
+      "section": "block-3",
+      "vo": "Knives Out.",
+      "text": null,
+      "visual": {
+        "type": "clip",
+        "query": "Knives Out trailer: Ana in front of the knife wheel",
+        "source": "https://www.youtube.com/watch?v=qGqiHJTsRkQ",
+        "in": 12.9,
+        "out": 14.0,
+        "treatment": "zoom-punch",
+        "file": "assets/s10.mp4",
+        "focus": 0.435
+      },
+      "sfx": "whip",
+      "poster": {
+        "wiki": "Knives Out",
+        "file": "assets/poster-knives-out.jpg"
+      }
+    },
+    {
+      "id": "s11",
+      "section": "block-3",
+      "vo": "A Bond movie.",
+      "text": "007",
+      "visual": {
+        "type": "clip",
+        "query": "No Time To Die trailer: Paloma action shot",
+        "source": "https://www.youtube.com/watch?v=BIhNsAtPbPI",
+        "in": 129.8,
+        "out": 131.4,
+        "treatment": "zoom-punch",
+        "file": "assets/s11.mp4",
+        "focus": 0.476
+      },
+      "sfx": "whip",
+      "poster": {
+        "wiki": "No Time to Die",
+        "file": "assets/poster-no-time-to-die.jpg"
+      }
+    },
+    {
+      "id": "s12",
+      "section": "climax",
+      "vo": "And then, she became the first Cuban ever nominated",
+      "text": null,
+      "visual": {
+        "type": "clip",
+        "query": "Blonde trailer: Ana as Marilyn, emotional close-up",
+        "source": "https://www.youtube.com/watch?v=aIsFywuZPoQ",
+        "in": 31.0,
+        "out": 33.6,
+        "treatment": "ken-burns",
+        "file": "assets/s12.mp4",
+        "focus": 0.481
+      },
+      "sfx": "riser"
+    },
+    {
+      "id": "s13",
+      "section": "climax",
+      "vo": "for the Best Actress Oscar.",
+      "text": "1ST CUBAN | Best Actress Oscar nominee",
+      "visual": {
+        "type": "stat",
+        "treatment": "zoom-punch"
+      },
+      "sfx": "ding"
+    },
+    {
+      "id": "s14",
+      "section": "loop",
+      "vo": "So when a studio cut her out of a movie, fans took it to court.",
+      "text": "CUT FROM THE MOVIE",
+      "visual": {
+        "type": "clip",
+        "query": "Yesterday deleted scene: same shot as s01 for the loop",
+        "source": "https://www.youtube.com/watch?v=UUfkZ4pCJB0",
+        "in": 228.0,
+        "out": 232.1,
+        "treatment": "ken-burns",
+        "file": "assets/s14.mp4",
+        "focus": 0.658
+      },
+      "sfx": null
+    }
+  ]
+}

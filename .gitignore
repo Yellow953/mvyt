@@ -1,0 +1,34 @@
+# OS / editors
+.DS_Store
+.env
+
+# Dependencies (recreate: `cd remotion && npm i`, `uv venv --python 3.12 .venv && uv pip install --python .venv/bin/python kokoro soundfile "opencv-python-headless<5"`)
+.venv/
+node_modules/
+
+# Remotion build output
+remotion/dist/
+remotion/out/
+
+# Media: copyrighted footage, renders, TTS audio and licensed music/SFX stay local, never on GitHub.
+# Scripts, scenes.json, sources.md and upload.md for each video ARE committed.
+videos/**/assets/
+videos/**/audio/
+videos/**/out/
+videos/_tts-test/
+videos/_lib/music/**/*.mp3
+videos/_lib/music/**/*.wav
+videos/_lib/music/**/*.m4a
+videos/_lib/sfx/
+*.mp4
+*.mov
+*.wav
+*.mp3
+
+# Research scratch (raw transcripts / thumbnails can be regenerated)
+research/**/transcripts/
+research/**/thumbnails/
+
+# Python
+__pycache__/
+*.pyc
