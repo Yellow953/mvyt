@@ -1,0 +1,176 @@
+{
+  "format": "short",
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "music": {
+    "file": "_lib/music/sensual/Mixkit - Pop 08.mp3",
+    "mood": "sensual",
+    "volume": 0.22,
+    "title": "Pop 08",
+    "artist": "Mixkit"
+  },
+  "slug": "most-hated-actresses-2026",
+  "title": "Ranking Hollywood's Most Hated Women of 2026",
+  "pron": {
+    "Zegler": "Zeg-ler",
+    "Meghan Markle": "Megan Markle"
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "section": "hook",
+      "vo": "The five most hated women in Hollywood right now. Number one will make you mad.",
+      "text": "MOST HATED 2026",
+      "visual": {
+        "type": "image",
+        "query": "grid composite",
+        "source": "local composite",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s01.jpg",
+        "focus": 0.5
+      },
+      "sfx": "bass-hit"
+    },
+    {
+      "id": "s02",
+      "section": "block-1",
+      "vo": "Five. Rachel Zegler. She called the original Snow White dated.",
+      "text": "#5 RACHEL ZEGLER",
+      "visual": {
+        "type": "clip",
+        "query": "Rachel Zegler interview clip",
+        "source": "https://www.youtube.com/watch?v=gDBdoafhIfE",
+        "in": 17.0,
+        "out": 21.4,
+        "treatment": "zoom-punch",
+        "file": "assets/s02.mp4",
+        "focus": 0.46
+      },
+      "sfx": "whoosh"
+    },
+    {
+      "id": "s03",
+      "section": "block-1",
+      "vo": "Her remake reportedly lost Disney a hundred and seventy million.",
+      "text": "-$170M",
+      "visual": {
+        "type": "image",
+        "query": "Rachel Zegler red carpet photo",
+        "source": "https://i.abcnewsfe.com/a/166da2b7-d66e-450b-9092-889d29b45471/rachel-zegler-oscars-gty-jt-250302_1740957553834_hpEmbed_7x10.jpg",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s03.jpg",
+        "focus": 0.461
+      },
+      "sfx": "ding"
+    },
+    {
+      "id": "s04",
+      "section": "block-2",
+      "vo": "Four. Sydney Sweeney. A jeans ad, a betting ad and a box office flop later, the internet turned on her.",
+      "text": "#4 SYDNEY SWEENEY",
+      "visual": {
+        "type": "clip",
+        "query": "Sydney Sweeney Glambot red gown",
+        "source": "https://www.youtube.com/watch?v=2TeKpxRYmBQ",
+        "in": 4.0,
+        "out": 11.6,
+        "treatment": "zoom-punch",
+        "file": "assets/s04.mp4",
+        "focus": 0.52
+      },
+      "sfx": "whoosh"
+    },
+    {
+      "id": "s05",
+      "section": "block-3",
+      "vo": "Three. Blake Lively. She asked for eight million in legal fees. She got four hundred thousand.",
+      "text": "#3 BLAKE LIVELY",
+      "visual": {
+        "type": "image",
+        "query": "Blake Lively red carpet photo",
+        "source": "https://staticfanpage.akamaized.net/wp-content/uploads/sites/33/2022/05/blake-lively-front-versace-1.jpeg",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s05.jpg",
+        "focus": 0.476
+      },
+      "sfx": "whoosh"
+    },
+    {
+      "id": "s06",
+      "section": "block-4",
+      "vo": "Two. Amber Heard. A jury found she defamed Johnny Depp.",
+      "text": "#2 AMBER HEARD",
+      "visual": {
+        "type": "clip",
+        "query": "Amber Heard trial / red carpet (her only)",
+        "source": "https://www.youtube.com/watch?v=TgCW6BOGYHg",
+        "in": 5.8,
+        "out": 9.8,
+        "treatment": "zoom-punch",
+        "file": "assets/s06.mp4",
+        "focus": 0.639
+      },
+      "sfx": "whoosh"
+    },
+    {
+      "id": "s07",
+      "section": "rehook",
+      "vo": "And number one isn't even acting anymore.",
+      "text": "AND #1…",
+      "visual": {
+        "type": "image",
+        "query": "blurred teaser (Meghan, unrevealed)",
+        "source": "https://www.usmagazine.com/wp-content/uploads/2024/10/Meghan-Markle-Makes-Surprise-Appearance-at-Los-Angeles-Charity-Gala-02-2024.jpg?w=1000&quality=47&strip=all",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s07.jpg",
+        "focus": 0.5
+      },
+      "sfx": "riser"
+    },
+    {
+      "id": "s08",
+      "section": "block-5",
+      "vo": "Meghan Markle. Voted the most disliked celebrity of 2026 by over a hundred thousand people.",
+      "text": "#1 MEGHAN MARKLE",
+      "visual": {
+        "type": "image",
+        "query": "Meghan Markle reveal",
+        "source": "https://www.usmagazine.com/wp-content/uploads/2024/10/Meghan-Markle-Makes-Surprise-Appearance-at-Los-Angeles-Charity-Gala-02-2024.jpg?w=1000&quality=47&strip=all",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s08.jpg",
+        "focus": 0.5
+      },
+      "sfx": "bass-hit"
+    },
+    {
+      "id": "s09",
+      "section": "outro",
+      "vo": "Wrong order? Who did we miss? Tell me who's number one.",
+      "text": "WHO'S YOUR #1?",
+      "visual": {
+        "type": "image",
+        "query": "grid composite",
+        "source": "local composite",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s09.jpg",
+        "focus": 0.5
+      },
+      "sfx": null
+    }
+  ]
+}

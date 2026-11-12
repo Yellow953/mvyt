@@ -1,0 +1,229 @@
+{
+  "format": "short",
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "music": {
+    "file": "_lib/music/sensual/Mixkit - C.B.P.D.mp3",
+    "mood": "sensual",
+    "volume": 0.22,
+    "title": "C.B.P.D",
+    "artist": "Mixkit"
+  },
+  "slug": "sydney-sweeney-cancelled-richer",
+  "title": "Every Time They Cancel Her, She Gets Richer",
+  "pron": {
+    "Doja": "Doe-jah",
+    "Sweeney": "Sweeny"
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "section": "hook",
+      "vo": "The internet tried to cancel her.",
+      "text": "THEY TRIED TO CANCEL HER",
+      "visual": {
+        "type": "clip",
+        "query": "",
+        "source": "https://www.youtube.com/watch?v=2TeKpxRYmBQ",
+        "in": 4.0,
+        "out": 6.6,
+        "treatment": "zoom-punch",
+        "file": "assets/s01.mp4",
+        "focus": 0.54
+      },
+      "sfx": "bass-hit"
+    },
+    {
+      "id": "s02",
+      "section": "hook",
+      "vo": "It made her richer.",
+      "text": "IT MADE HER RICHER 💰",
+      "visual": {
+        "type": "image",
+        "query": "red-carpet photo (syd3)",
+        "source": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1663026146.jpg",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s02.jpg",
+        "focus": 0.526
+      },
+      "sfx": "ding"
+    },
+    {
+      "id": "s03",
+      "section": "block-1",
+      "vo": "Her jeans ad? Critics said it went too far.",
+      "text": "JEANS AD BACKLASH",
+      "visual": {
+        "type": "clip",
+        "query": "",
+        "source": "https://www.youtube.com/watch?v=AK8s3iqL99c",
+        "in": 17.6,
+        "out": 21.2,
+        "treatment": "zoom-punch",
+        "file": "assets/s03.mp4",
+        "focus": 0.528
+      },
+      "sfx": "whoosh"
+    },
+    {
+      "id": "s04",
+      "section": "block-1",
+      "vo": "Even Doja Cat roasted it.",
+      "text": null,
+      "visual": {
+        "type": "clip",
+        "query": "",
+        "source": "https://www.youtube.com/watch?v=0fzzqTs7w70",
+        "in": 4.0,
+        "out": 6.3,
+        "treatment": "zoom-punch",
+        "file": "assets/s04.mp4",
+        "focus": 0.404
+      },
+      "sfx": "record-scratch"
+    },
+    {
+      "id": "s05",
+      "section": "block-1",
+      "vo": "Then the stock jumped twenty-five percent.",
+      "text": "STOCK +25%",
+      "visual": {
+        "type": "clip",
+        "query": "",
+        "source": "https://www.youtube.com/watch?v=AK8s3iqL99c",
+        "in": 13.0,
+        "out": 16.7,
+        "treatment": "zoom-punch",
+        "file": "assets/s05.mp4",
+        "focus": 0.591
+      },
+      "sfx": "ding"
+    },
+    {
+      "id": "s06",
+      "section": "block-1",
+      "vo": "Seven hundred thousand new customers, they say.",
+      "text": "+700K CUSTOMERS",
+      "visual": {
+        "type": "image",
+        "query": "red-carpet photo (syd4)",
+        "source": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1467425871-65e0b96869bdf.jpg",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s06.jpg",
+        "focus": 0.496
+      },
+      "sfx": "ding"
+    },
+    {
+      "id": "s07",
+      "section": "block-2",
+      "vo": "Then Olympians slammed her betting ad.",
+      "text": "OLYMPIANS SLAM AD",
+      "visual": {
+        "type": "clip",
+        "query": "",
+        "source": "https://www.youtube.com/watch?v=00ujrOqy4Fc",
+        "in": 50.4,
+        "out": 53.4,
+        "treatment": "zoom-punch",
+        "zoom": 1.3,
+        "anchor": "top",
+        "file": "assets/s07.mp4",
+        "focus": 0.55
+      },
+      "sfx": "whoosh"
+    },
+    {
+      "id": "s08",
+      "section": "block-2",
+      "vo": "Forty million views. And she owns part of the company.",
+      "text": "40M VIEWS + SHE OWNS IT",
+      "visual": {
+        "type": "image",
+        "query": "red-carpet photo (syd1)",
+        "source": "https://celebmafia.com/wp-content/uploads/2025/12/sydney-sweeney-at-the-housemaid-premiere-in-new-york-8_thumbnail.jpg",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s08.jpg",
+        "focus": 0.573
+      },
+      "sfx": "bass-hit"
+    },
+    {
+      "id": "s09",
+      "section": "rehook",
+      "vo": "But here's what nobody posts.",
+      "text": "BUT…",
+      "visual": {
+        "type": "clip",
+        "query": "",
+        "source": "https://www.youtube.com/watch?v=3TwhvC_iPCc",
+        "in": 130.0,
+        "out": 132.2,
+        "treatment": "zoom-punch",
+        "file": "assets/s09.mp4",
+        "focus": 0.582
+      },
+      "sfx": "riser"
+    },
+    {
+      "id": "s10",
+      "section": "block-3",
+      "vo": "Her movie Christy? One of the worst openings ever.",
+      "text": "WORST OPENING EVER?",
+      "visual": {
+        "type": "clip",
+        "query": "",
+        "source": "https://www.youtube.com/watch?v=EG_bxuvDs6k",
+        "in": 142.0,
+        "out": 146.0,
+        "treatment": "zoom-punch",
+        "file": "assets/s10.mp4",
+        "focus": 0.5
+      },
+      "sfx": "whip"
+    },
+    {
+      "id": "s11",
+      "section": "block-3",
+      "vo": "One point three million dollars.",
+      "text": "$1.3M",
+      "visual": {
+        "type": "clip",
+        "query": "",
+        "source": "https://www.youtube.com/watch?v=EG_bxuvDs6k",
+        "in": 138.0,
+        "out": 140.4,
+        "treatment": "zoom-punch",
+        "file": "assets/s11.mp4",
+        "focus": 0.452
+      },
+      "sfx": "ding"
+    },
+    {
+      "id": "s12",
+      "section": "outro",
+      "vo": "So is the hate making her richer, or finally catching up? Pick a side.",
+      "text": "RICHER or CAUGHT UP?",
+      "visual": {
+        "type": "clip",
+        "query": "",
+        "source": "https://www.youtube.com/watch?v=2TeKpxRYmBQ",
+        "in": 4.0,
+        "out": 9.4,
+        "treatment": "zoom-punch",
+        "file": "assets/s12.mp4",
+        "focus": 0.53
+      },
+      "sfx": null
+    }
+  ]
+}

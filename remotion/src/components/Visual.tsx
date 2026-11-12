@@ -89,9 +89,17 @@ export const Visual: React.FC<{ scene: ResolvedScene & { spec_slug: string }; fo
     return (
       <AbsoluteFill style={{ backgroundColor: "#000" }}>
         <div style={{ position: "absolute", top: 230, left: 0, width: 1080, height: h, overflow: "hidden" }}>
-          <Motion treatment={v.treatment ?? (v.type === "image" ? "ken-burns" : "none")}>
-            <Media scene={scene} fit="cover" />
-          </Motion>
+          {/* zoom + anchor push burned-in lower thirds / tickers out of the window (anchor top → bottom edge cropped) */}
+          <AbsoluteFill
+            style={{
+              scale: v.zoom ?? 1,
+              transformOrigin: `50% ${v.anchor === "top" ? 0 : v.anchor === "bottom" ? 100 : 50}%`,
+            }}
+          >
+            <Motion treatment={v.treatment ?? (v.type === "image" ? "ken-burns" : "none")}>
+              <Media scene={scene} fit="cover" />
+            </Motion>
+          </AbsoluteFill>
         </div>
       </AbsoluteFill>
     );

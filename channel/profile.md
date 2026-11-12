@@ -26,6 +26,13 @@ Lessons:
 - **Famous names alone don't carry a video.** Search interest is high, but so is competition. You need an angle.
 - Shorts were reposts of the long-form and never had their own hooks.
 
+## Shorts batch 1 results (checked 2026-11-12)
+| Short | Length | Views | Stayed to watch | Avg viewed |
+|---|---|---|---|---|
+| Fans Sued a Studio Because of Her | 0:41 | 1.3K (flat after day 1) | 62.3% | 0:21 (~51%) |
+| From TikTok Dancer to Grammy Nominee | 0:48 | 1.3K (flat after 8h) | 62.9% | 0:17 (~35%) |
+Lessons: both passed the ~1K seed test, then stalled, with stayed-to-watch under 70% and % viewed under 65%. Bio/"rise" stories give no reason to stay or comment. Next: ≤30–33s, a debatable thesis as the hook, every beat a but/therefore, end on an either/or question that loops into the hook, plus a pinned pick-a-side comment.
+
 ## Positioning (going forward)
 **ModelVault = the internet-fame channel.** It covers how creators, influencers and celebrities blew up, the viral moments, the drama, the money, the downfalls, and the AI models taking their jobs.
 

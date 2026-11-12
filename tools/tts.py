@@ -83,7 +83,10 @@ def unpron_words(words, pron):
                 break
         else:
             w = words[i]
-            w["word"] = rev.get(w["word"].lower(), w["word"])
+            tail = re.search(r"[^\w']+$", w["word"])
+            base = strip(w["word"])
+            if base in rev:
+                w["word"] = rev[base] + (tail.group(0) if tail else "")
             out.append(w)
             i += 1
     return out

@@ -1,0 +1,32 @@
+| # | Score | Views | Chan median | Title | Channel |
+|---|---|---|---|---|---|
+| 1 | 26209.2x | 157,255 | 6 | [Taylor Swift and Sabrina Carpenter rehearsing “Espresso”](https://www.youtube.com/watch?v=mSjOhng50KM) | Lilla and lexi |
+| 2 | 1162.1x | 729,795 | 628 | [Sabrina Carpenter - Taste / Official Music Video](https://www.youtube.com/watch?v=szYsxSCy8UE) | BeatStream |
+| 3 | 615.9x | 4,280,356 | 6,950 | [FAKE Taylor Swift PRANK Tricks Aussie Fans!](https://www.youtube.com/watch?v=rxvd0MPE7l4) | Kyle and Jackie O |
+| 4 | 457.1x | 92,328 | 202 | [Taylor Swift meets with fans while leaving Rocket Arena after Cavaliers-Knicks Game 3](https://www.youtube.com/watch?v=9UoiDhLseHc) | WKYC Channel 3 |
+| 5 | 430.1x | 25,373,103 | 59,000 | [Taylor Swift Reacts to Embarrassing Footage of Herself After Laser Eye Surgery](https://www.youtube.com/watch?v=IZ_SFbaysHk) | The Tonight Show Starring Jimmy Fallon |
+| 6 | 399.4x | 73,879 | 185 | [25 Best Pickleball Rallies of Anna Leigh Waters](https://www.youtube.com/watch?v=lduEYgDA3dk) | Pickleball Insanity |
+| 7 | 299.9x | 33,288 | 111 | [Skims Try-on haul/review](https://www.youtube.com/watch?v=ZzlZ__KDXP0) | LANNA |
+| 8 | 288.6x | 21,064 | 73 | [Taylor Swift hugs Sabrina Carpenter at VMAs 2023 #taylorswift #vmas2023](https://www.youtube.com/watch?v=HSARRcW00W0) | Swiftie Power |
+| 9 | 217.3x | 749,781 | 3,450 | [HUGE SKIMS TRY-ON HAUL!!](https://www.youtube.com/watch?v=go80Kmhio7A) | Chloe Rosenbaum |
+| 10 | 140.8x | 985,892 | 7,000 | [How 1 Woman Became Britain's Most Hated Celebrity](https://www.youtube.com/watch?v=sm7CO_WnDYs) | Nollid |
+| 11 | 130.0x | 71,888 | 553 | [Taylor Swift fan does interview incognito](https://www.youtube.com/watch?v=GJ2Z-05U-go) | WLKY News Louisville |
+| 12 | 108.9x | 136,178 | 1,250 | [Meet This Pro Pickleball Player Earning Six Figures At 16 Years Old / On The Clock](https://www.youtube.com/watch?v=r7x3BDSbpps) | Fortune Magazine |
+| 13 | 99.2x | 1,933,714 | 19,500 | [Kendall Jenner for SKIMS](https://www.youtube.com/watch?v=G2i-ocg-qAk) | SKIMS |
+| 14 | 66.9x | 54,295 | 812 | [First SKIMS Haul Unboxing – You Won't Believe How Much I Spent!](https://www.youtube.com/watch?v=ap0zj8C6rCc) | Meghan Boyczuk |
+| 15 | 64.8x | 29,137 | 450 | [Why Zendaya Is The Most Overrated Star In Hollywood](https://www.youtube.com/watch?v=LqZJYyTe9CI) | OneStarReviewz |
+| 16 | 59.9x | 1,438,544 | 24,000 | [Taylor Swift gets a coffee](https://www.youtube.com/watch?v=-tRaa4c6VXU) | PFINNEY |
+| 17 | 55.2x | 1,077,157 | 19,500 | [Kylie Jenner for SKIMS](https://www.youtube.com/watch?v=529BPK5_Teo) | SKIMS |
+| 18 | 51.4x | 642,495 | 12,500 | [Lea Michele: Glee's Most HATED Actress](https://www.youtube.com/watch?v=qC55zDJbCo4) | Cid Dwyer |
+| 19 | 45.6x | 638,391 | 14,000 | [Do All Taylor Swift Fans Think The Same?](https://www.youtube.com/watch?v=BEux9fpiNW8) | Brian Terada |
+| 20 | 45.3x | 110,987 | 2,450 | [6 Most Overrated Actors In Hollywood](https://www.youtube.com/watch?v=Cn4HdFKY_j8) | Nicki Swift |
+| 21 | 36.9x | 66,324 | 1,800 | [Train Filled Up With Tylor Swift Fans! #Shorts #TaylorSwift](https://www.youtube.com/watch?v=eeVLxg8As10) | HiCat |
+| 22 | 28.8x | 206,067 | 7,150 | [Jimmy Kimmel Faces Backlash After Megan Fox Interview Resurfaces](https://www.youtube.com/watch?v=zHIy-kx2q9o) | Daily Blast LIVE |
+| 23 | 15.3x | 53,732 | 3,500 | [The Truth About TikTok Taylor Swift Look-Alike Ashley Leechin](https://www.youtube.com/watch?v=Q1AHTW9tBcE) | The List |
+| 24 | 14.5x | 232,593 | 16,000 | [Taylor Swift Fan Claims She Does Not Remember Concert](https://www.youtube.com/watch?v=IH6AM0uYe-A) | Inside Edition |
+| 25 | 13.9x | 159,878 | 11,500 | [Taylor Swift Drinks Beer, Plays Basketball and Dances with NY Knicks!](https://www.youtube.com/watch?v=C865z2ypbOs) | Entertainment Tonight |
+| 26 | 13.3x | 43,175 | 3,250 | [Faye Dunaway: Hollywood’s Most Hated Actress?](https://www.youtube.com/watch?v=0z1vt1KR6sI) | Tales from Tinseltown |
+| 27 | 11.8x | 60,434 | 5,100 | [Top 10 Reasons Jada Pinkett Smith Is The Most Hated Celebrity](https://www.youtube.com/watch?v=AOS5tXjaC1U) | Top 10 Beyond The Screen |
+| 28 | 10.1x | 419,894 | 41,500 | [Viral Moments of Taylor Swift, Sabrina Carpenter and Olivia Rodrigo](https://www.youtube.com/watch?v=rDiIKnux1j0) | Star Snaps |
+| 29 | 9.3x | 13,979,518 | 1,500,000 | [Sabrina Carpenter - Taste (Me Too)](https://www.youtube.com/watch?v=KLbzKFCOXfs) | Sabrina Carpenter |
+| 30 | 8.9x | 21,861 | 2,450 | [Alix Earle Finally Exposes Alex Cooper](https://www.youtube.com/watch?v=LaIheOPEvhc) | The Spill |

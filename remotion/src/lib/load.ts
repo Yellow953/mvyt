@@ -65,7 +65,7 @@ export const calculateMetadata: CalculateMetadataFunction<ResolvedProps> = async
   });
 
   const words = (timings?.scenes ?? []).flatMap((s) => s.words);
-  const tail = spec.format === "short" ? 0.15 : 0.8;
+  const tail = spec.format === "short" ? 0.7 : 0.8; // shorts: let the closing question land (0.15 felt like a cut)
   const last = scenes[scenes.length - 1];
   const durationInFrames = last ? last.startFrame + last.durationInFrames + Math.round(tail * FPS) : FPS;
 

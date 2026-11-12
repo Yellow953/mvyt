@@ -1,0 +1,208 @@
+{
+  "format": "short",
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "music": {
+    "file": "_lib/music/sensual/Mixkit - Hip Hop 03.mp3",
+    "mood": "sensual",
+    "volume": 0.22,
+    "title": "Hip Hop 03",
+    "artist": "Mixkit"
+  },
+  "slug": "taylor-swift-fake-fan",
+  "title": "They Called Taylor Swift a Fake Fan. Twice.",
+  "pron": {},
+  "scenes": [
+    {
+      "id": "s01",
+      "section": "hook",
+      "vo": "The Knicks keep calling Taylor Swift a fake fan.",
+      "text": "FAKE FAN?",
+      "visual": {
+        "type": "image",
+        "query": "tay0",
+        "source": "https://pagesix.com/wp-content/uploads/sites/3/2025/01/editorial-use-taylor-swift-attends-97805130.jpg",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s01.jpg",
+        "focus": 0.5
+      },
+      "sfx": "bass-hit"
+    },
+    {
+      "id": "s02",
+      "section": "hook",
+      "vo": "Now it's happened twice.",
+      "text": "TWICE.",
+      "visual": {
+        "type": "clip",
+        "query": "",
+        "source": "https://www.youtube.com/watch?v=S6hD_n0bwmI",
+        "in": 88.5,
+        "out": 90.6,
+        "treatment": "zoom-punch",
+        "file": "assets/s02.mp4",
+        "focus": 0.508
+      },
+      "sfx": "record-scratch"
+    },
+    {
+      "id": "s03",
+      "section": "block-1",
+      "vo": "Guard Tyler Kolek, on a live stream: it's a little performative.",
+      "text": "\"A LITTLE PERFORMATIVE\"",
+      "visual": {
+        "type": "image",
+        "query": "tay2",
+        "source": "https://people.com/thmb/Ef6O9Rq09_zJMrghJjLzmc6np2M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(1200x0:1202x2)/2024-grammys-taylor-swift-pinterest-getty-images-bba497704c6546c39f8fba4a12b92427.jpg",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s03.jpg",
+        "focus": 0.4
+      },
+      "sfx": "whoosh"
+    },
+    {
+      "id": "s04",
+      "section": "block-1",
+      "vo": "Then he took it back. Called it Tyler's Version.",
+      "text": "\"TYLER'S VERSION\"",
+      "visual": {
+        "type": "image",
+        "query": "tex2",
+        "source": "https://media1.popsugar-assets.com/files/thumbor/sqztUzv5PPayZrSaWz4BiLCBnHQ/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2023/05/18/526/n/44490375/tmp_2M2LfS_6a281aa830633799_GettyImages-1488309558.jpg",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s04.jpg",
+        "focus": 0.5
+      },
+      "sfx": "ding"
+    },
+    {
+      "id": "s05",
+      "section": "block-2",
+      "vo": "In the Finals, Knicks radio host Monica McNutt on a hot mic: she's not a Knicks fan, get out of here, girl.",
+      "text": "\"GET OUT OF HERE, GIRL\"",
+      "visual": {
+        "type": "clip",
+        "query": "Monica McNutt on air",
+        "source": "https://www.youtube.com/watch?v=InRlO0POAtE",
+        "in": 9.0,
+        "out": 15.8,
+        "treatment": "zoom-punch",
+        "file": "assets/s05.mp4",
+        "focus": 0.506
+      },
+      "sfx": "whoosh"
+    },
+    {
+      "id": "s06",
+      "section": "block-2",
+      "vo": "She apologized too.",
+      "text": null,
+      "visual": {
+        "type": "clip",
+        "query": "",
+        "source": "https://www.youtube.com/watch?v=S6hD_n0bwmI",
+        "in": 91.5,
+        "out": 93.6,
+        "treatment": "zoom-punch",
+        "file": "assets/s06.mp4",
+        "focus": 0.725
+      },
+      "sfx": null
+    },
+    {
+      "id": "s07",
+      "section": "rehook",
+      "vo": "But here's what the haters leave out.",
+      "text": "BUT…",
+      "visual": {
+        "type": "image",
+        "query": "tex1",
+        "source": "https://live-production.wcms.abc-cdn.net.au/3c22ed57b3d0c27711e8e153f0129623?src",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s07.jpg",
+        "focus": 0.5
+      },
+      "sfx": "riser"
+    },
+    {
+      "id": "s08",
+      "section": "block-3",
+      "vo": "Fans say her first Knicks game was twelve years ago.",
+      "text": "12 YEARS AGO",
+      "visual": {
+        "type": "clip",
+        "query": "Taylor Swift at Knicks game 2014 (ET clip)",
+        "source": "https://www.youtube.com/watch?v=C865z2ypbOs",
+        "in": 20.6,
+        "out": 24.0,
+        "treatment": "none",
+        "file": "assets/s08.mp4",
+        "focus": 0.5,
+        "note": "segment-cropped to follow Taylor"
+      },
+      "sfx": "ding"
+    },
+    {
+      "id": "s09",
+      "section": "block-3",
+      "vo": "Down twenty-nine in the Finals, she was courtside when they came back.",
+      "text": "DOWN 29 → WIN",
+      "visual": {
+        "type": "clip",
+        "query": "Taylor Swift celebrating, NBA Finals Game 4",
+        "source": "https://www.youtube.com/watch?v=S6hD_n0bwmI",
+        "in": 17.5,
+        "out": 21.6,
+        "treatment": "zoom-punch",
+        "file": "assets/s09.mp4",
+        "focus": 0.703
+      },
+      "sfx": "bass-hit"
+    },
+    {
+      "id": "s10",
+      "section": "block-3",
+      "vo": "Fans called it Tayvoodoo.",
+      "text": "\"TAYVOODOO\"",
+      "visual": {
+        "type": "clip",
+        "query": "ET celebrations: Taylor laughing courtside",
+        "source": "https://www.youtube.com/watch?v=nHZmGsH0KE8",
+        "in": 86.4,
+        "out": 88.5,
+        "treatment": "zoom-punch",
+        "file": "assets/s10.mp4",
+        "focus": 0.5
+      },
+      "sfx": "ding"
+    },
+    {
+      "id": "s11",
+      "section": "outro",
+      "vo": "So is she a real fan, or is every game a photo op? Pick a side.",
+      "text": "REAL FAN or PHOTO OP?",
+      "visual": {
+        "type": "image",
+        "query": "tay0",
+        "source": "https://pagesix.com/wp-content/uploads/sites/3/2025/01/editorial-use-taylor-swift-attends-97805130.jpg",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s11.jpg",
+        "focus": 0.5
+      },
+      "sfx": null
+    }
+  ]
+}

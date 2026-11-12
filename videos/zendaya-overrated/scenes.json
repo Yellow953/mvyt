@@ -1,0 +1,192 @@
+{
+  "format": "short",
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "music": {
+    "file": "_lib/music/sensual/Mixkit - Lo-Fi 03.mp3",
+    "mood": "sensual",
+    "volume": 0.22,
+    "title": "Lo-Fi 03",
+    "artist": "Mixkit"
+  },
+  "slug": "zendaya-overrated",
+  "title": "Is Zendaya Overrated?",
+  "pron": {
+    "Zendaya": "Zen-day-uh"
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "section": "hook",
+      "vo": "Zendaya has never carried a movie on her own.",
+      "text": "NEVER CARRIED A MOVIE?",
+      "visual": {
+        "type": "image",
+        "query": "Zendaya glam red carpet (Met Gala / premiere)",
+        "source": "https://live-production.wcms.abc-cdn.net.au/329351de431e04730736a436a5917bbf?src",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s01.jpg",
+        "focus": 0.5
+      },
+      "sfx": "bass-hit"
+    },
+    {
+      "id": "s02",
+      "section": "hook",
+      "vo": "Agree or disagree?",
+      "text": "AGREE?",
+      "visual": {
+        "type": "clip",
+        "query": "Zendaya close-up, interview",
+        "source": "https://www.youtube.com/watch?v=FZSCdXZSLNM",
+        "in": 41.0,
+        "out": 43.0,
+        "treatment": "zoom-punch",
+        "file": "assets/s02.mp4",
+        "focus": 0.506
+      },
+      "sfx": "whoosh"
+    },
+    {
+      "id": "s03",
+      "section": "block-1",
+      "vo": "Spider-Man? That's Tom Holland's movie.",
+      "text": "TOM'S MOVIE",
+      "visual": {
+        "type": "image",
+        "query": "zsp1",
+        "source": "https://i.pinimg.com/originals/4e/c3/f1/4ec3f1ec43c72894a0d05c41b0e01864.jpg",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s03.jpg",
+        "focus": 0.462
+      },
+      "sfx": "whip"
+    },
+    {
+      "id": "s04",
+      "section": "block-1",
+      "vo": "Dune? Timothée's.",
+      "text": "TIMOTHÉE'S",
+      "visual": {
+        "type": "image",
+        "query": "Dune Part Two trailer, Chani close-up",
+        "source": "https://wwd.com/wp-content/uploads/2024/02/Dune-Two-Press-Tour-04.jpg",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s04.jpg",
+        "focus": 0.518
+      },
+      "sfx": "whip"
+    },
+    {
+      "id": "s05",
+      "section": "block-1",
+      "vo": "The one movie that was hers? Challengers. Ninety-six million worldwide.",
+      "text": "$96M",
+      "visual": {
+        "type": "clip",
+        "query": "Challengers trailer, Zendaya close-up",
+        "source": "https://www.youtube.com/watch?v=AXEK7y1BuNQ",
+        "in": 51.5,
+        "out": 56.6,
+        "treatment": "zoom-punch",
+        "file": "assets/s05.mp4",
+        "focus": 0.507
+      },
+      "sfx": "ding"
+    },
+    {
+      "id": "s06",
+      "section": "block-1",
+      "vo": "Critics say she plays the same character every time.",
+      "text": "\"SAME CHARACTER\"",
+      "visual": {
+        "type": "image",
+        "query": "Zendaya glam photo",
+        "source": "https://www.the-sun.com/wp-content/uploads/sites/6/2024/03/zendaya-attends-australian-premiere-challengers-889675353.jpg?strip=all&w=640",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s06.jpg",
+        "focus": 0.498
+      },
+      "sfx": "record-scratch"
+    },
+    {
+      "id": "s07",
+      "section": "rehook",
+      "vo": "But here's the other side.",
+      "text": "BUT…",
+      "visual": {
+        "type": "clip",
+        "query": "Zendaya interview, smiling",
+        "source": "https://www.youtube.com/watch?v=FZSCdXZSLNM",
+        "in": 66.6,
+        "out": 68.6,
+        "treatment": "zoom-punch",
+        "file": "assets/s07.mp4",
+        "focus": 0.721
+      },
+      "sfx": "riser"
+    },
+    {
+      "id": "s08",
+      "section": "block-2",
+      "vo": "She's the youngest two-time Emmy winner in acting history.",
+      "text": "YOUNGEST 2X EMMY WINNER",
+      "visual": {
+        "type": "clip",
+        "query": "Zendaya Emmys 2022 acceptance speech",
+        "source": "https://www.youtube.com/watch?v=jpxNOnNNCn8",
+        "in": 137.5,
+        "out": 141.2,
+        "treatment": "zoom-punch",
+        "file": "assets/s08.mp4",
+        "focus": 0.434
+      },
+      "sfx": "ding"
+    },
+    {
+      "id": "s09",
+      "section": "block-2",
+      "vo": "And this summer, her Spider-Man had the biggest opening weekend ever.",
+      "text": "BIGGEST OPENING EVER",
+      "visual": {
+        "type": "image",
+        "query": "Spider-Man Brand New Day trailer, MJ",
+        "source": "https://i.pinimg.com/736x/e3/ab/df/e3abdfcf3136ae0f311c475ae6f7c0b0.jpg",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s09.jpg",
+        "focus": 0.542
+      },
+      "sfx": "bass-hit"
+    },
+    {
+      "id": "s10",
+      "section": "outro",
+      "vo": "So is Zendaya overrated, or the best of her generation? Pick a side.",
+      "text": "OVERRATED or THE BEST?",
+      "visual": {
+        "type": "image",
+        "query": "Same glam image as s01 (visual loop)",
+        "source": "https://live-production.wcms.abc-cdn.net.au/329351de431e04730736a436a5917bbf?src",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s10.jpg",
+        "focus": 0.5
+      },
+      "sfx": null
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "format": "short",
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1.1
+  },
+  "music": {
+    "file": "_lib/music/sensual/Mixkit - Pop 08.mp3",
+    "mood": "sensual",
+    "volume": 0.22,
+    "title": "Pop 08",
+    "artist": "Mixkit"
+  },
+  "slug": "sabrina-vs-sydney-double-standard",
+  "title": "Sabrina vs Sydney: Same Backlash, Different Treatment?",
+  "pron": {
+    "Sweeney": "Sweeny"
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "section": "hook",
+      "vo": "Sabrina gets away with it.",
+      "text": "SHE GETS AWAY WITH IT…",
+      "visual": {
+        "type": "clip",
+        "query": "",
+        "source": "https://www.youtube.com/watch?v=Yczpub5RHl4",
+        "in": 7.0,
+        "out": 10.0,
+        "treatment": "none",
+        "split_note": "composite: Sabrina GRAMMYs 2026 fashion cam | Sydney Emmys Glambot",
+        "file": "assets/s01.mp4",
+        "focus": 0.5
+      },
+      "sfx": "bass-hit"
+    },
+    {
+      "id": "s02",
+      "section": "hook",
+      "vo": "Sydney gets torn apart for it.",
+      "text": "…SHE GETS TORN APART",
+      "visual": {
+        "type": "image",
+        "query": "red-carpet photo (syd6)",
+        "source": "https://pagesix.com/wp-content/uploads/sites/3/2025/10/sydney-sweeney-christy-premiere-screening-114229287.jpg",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s02.jpg",
+        "focus": 0.179
+      },
+      "sfx": "whip"
+    },
+    {
+      "id": "s03",
+      "section": "block-1",
+      "vo": "Sabrina's album cover? Critics called it regressive.",
+      "text": "'REGRESSIVE'",
+      "visual": {
+        "type": "image",
+        "query": "red-carpet photo (sab2)",
+        "source": "https://nypost.com/wp-content/uploads/sites/2/2025/02/sabrina-carpenter-attends-67th-annual-97795450.jpg",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s03.jpg",
+        "focus": 0.468
+      },
+      "sfx": "whip",
+      "est_sec": 2.8
+    },
+    {
+      "id": "s04",
+      "section": "block-1",
+      "vo": "Her answer? Y'all need to get out more.",
+      "text": "\"GET OUT MORE\"",
+      "visual": {
+        "type": "clip",
+        "query": "Sabrina Carpenter on stage, wide crowd shot / face close-up, Short n' Sweet tour fan cam (NO Juno-position clips)",
+        "source": "https://www.youtube.com/watch?v=LF5n0tJasXI",
+        "in": 116.0,
+        "out": 119.0,
+        "treatment": "zoom-punch",
+        "file": "assets/s04.mp4",
+        "focus": 0.473
+      },
+      "sfx": null,
+      "est_sec": 3.6
+    },
+    {
+      "id": "s05",
+      "section": "block-1",
+      "vo": "Her tour? Too much for young fans, critics said.",
+      "text": null,
+      "visual": {
+        "type": "clip",
+        "query": "Sabrina Carpenter laughing in interview (Rolling Stone / talk show)",
+        "source": "https://www.youtube.com/watch?v=VJPhmau5Vgk",
+        "in": 229.5,
+        "out": 232.9,
+        "treatment": "zoom-punch",
+        "file": "assets/s05.mp4",
+        "focus": 0.673
+      },
+      "sfx": "record-scratch",
+      "est_sec": 2.4
+    },
+    {
+      "id": "s06",
+      "section": "block-1",
+      "vo": "Her reward? Six Grammy nominations.",
+      "text": "6 GRAMMY NOMS",
+      "visual": {
+        "type": "image",
+        "query": "red-carpet photo (sab3)",
+        "source": "https://cdn01.justjared.com/wp-content/uploads/2026/02/carpenter-carp/sabrina-carpenter-grammys-carpet-07.jpg",
+        "in": null,
+        "out": null,
+        "treatment": "ken-burns",
+        "file": "assets/s06.jpg",
+        "focus": 0.543
+      },
+      "sfx": "ding"
+    },
+    {
+      "id": "s07",
+      "section": "block-2",
+      "vo": "Now Sydney. Her jeans ad? Slammed.",
+      "text": "JEANS AD BACKLASH",
+      "visual": {
+        "type": "clip",
+        "query": "American Eagle ad, Sydney face shot only",
+        "source": "https://www.youtube.com/watch?v=AK8s3iqL99c",
+        "in": 13.0,
+        "out": 16.7,
+        "treatment": "zoom-punch",
+        "file": "assets/s07.mp4",
+        "focus": 0.591
+      },
+      "sfx": "whoosh",
+      "est_sec": 4.4
+    },
+    {
+      "id": "s08",
+      "section": "block-2",
+      "vo": "Her betting ad? Olympians called it out.",
+      "text": "OLYMPIANS PUSH BACK",
+      "visual": {
+        "type": "clip",
+        "query": "Female athlete reaction post (Gracie Kramer), athlete face-to-camera (NO Novig ad footage)",
+        "source": "https://www.youtube.com/watch?v=00ujrOqy4Fc",
+        "in": 70.5,
+        "out": 74.5,
+        "treatment": "zoom-punch",
+        "zoom": 1.3,
+        "anchor": "top",
+        "file": "assets/s08.mp4",
+        "focus": 0.537
+      },
+      "sfx": "whoosh",
+      "est_sec": 3.6
+    },
+    {
+      "id": "s09",
+      "section": "block-2",
+      "vo": "Her movie Christy? It flopped.",
+      "text": "$1.3M OPENING",
+      "visual": {
+        "type": "clip",
+        "query": "Christy trailer, Sydney face close-up",
+        "source": "https://www.youtube.com/watch?v=EG_bxuvDs6k",
+        "in": 122.6,
+        "out": 125.2,
+        "treatment": "zoom-punch",
+        "file": "assets/s09.mp4",
+        "focus": 0.233
+      },
+      "sfx": "ding",
+      "est_sec": 2.0
+    },
+    {
+      "id": "s10",
+      "section": "rehook",
+      "vo": "Her take on Hollywood? Women empowering women is fake.",
+      "text": "\"IT'S ALL FAKE\"",
+      "visual": {
+        "type": "clip",
+        "query": "Sydney Sweeney Vanity Fair / press interview close-up, serious",
+        "source": "https://www.youtube.com/watch?v=3TwhvC_iPCc",
+        "in": 162.5,
+        "out": 166.4,
+        "treatment": "zoom-punch",
+        "file": "assets/s10.mp4",
+        "focus": 0.593
+      },
+      "sfx": "bass-hit",
+      "est_sec": 3.6
+    },
+    {
+      "id": "s11",
+      "section": "outro",
+      "vo": "So is it a double standard, or did Sydney earn it? Pick a side.",
+      "text": "DOUBLE STANDARD?",
+      "visual": {
+        "type": "clip",
+        "query": "",
+        "source": "https://www.youtube.com/watch?v=Yczpub5RHl4",
+        "in": 7.0,
+        "out": 12.0,
+        "treatment": "none",
+        "split_note": "composite again (visual loop)",
+        "file": "assets/s11.mp4",
+        "focus": 0.5
+      },
+      "sfx": null
+    }
+  ]
+}
